@@ -17,8 +17,8 @@ templates/      Templates control the output format of the HTML Dashboard and PD
 # Building & Publishing
 
 1. Clone this repository.    
-2. Make the required edits to the policy markdown files.    
-3. Check it back in:     
+1. Make the required edits to the policy markdown files.    
+1. Check it back in:     
 
 ```shell
 git add --all && git commit -m'edited some policy file' && git push
