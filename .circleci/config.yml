@@ -1,14 +1,14 @@
 version: 2
 jobs:
-  build:
-    docker:
-      - image: busybox
-    working_directory: /home/circleci/image-builder
-    steps:
-      - run: echo starting Docker.
-  ###########################
-  #### ubuntu-14.04-XXL #####
-  ###########################
+  # build:
+  #   docker:
+  #     - image: busybox
+  #   working_directory: /home/circleci/image-builder
+  #   steps:
+  #     - run: echo starting Docker.
+  # ###########################
+  # #### ubuntu-14.04-XXL #####
+  # ###########################
   ubuntu-14.04-XXL:
     machine:
       docker_layer_caching: true
