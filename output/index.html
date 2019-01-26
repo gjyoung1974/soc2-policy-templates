@@ -1,0 +1,1768 @@
+<!DOCTYPE html><html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>
+      ACME Anvil Corporation Compliance Program
+    </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulmaswatch/0.6.2/sandstone/bulmaswatch.min.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.0/moment.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/later/1.2.0/later.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/prettycron/0.11.0/prettycron.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type="text/css">
+</style>
+    <script type="text/javascript">
+document.addEventListener("DOMContentLoaded", function(event) {
+  document.querySelectorAll('.cron').forEach(function(el) {
+    el.innerHTML = prettyCron.toString((""+el.innerHTML).trim(),true) 
+  })
+})
+
+function show(name) {
+  if (history.replaceState) {
+      history.replaceState(null, null, '#'+name)
+  }
+
+  var items = document.getElementsByClassName('top-nav')
+  for (var i=0; i<items.length; i++) {
+    var item = items[i]
+    if (item.tagName === "LI") {
+      
+      if (item.classList.contains(name)) {
+        item.classList.add('is-active')
+      } else {
+        item.classList.remove('is-active')
+      }
+    } else {
+      
+      if (item.id === name) {
+        item.classList.remove('is-hidden')
+      } else {
+        item.classList.add('is-hidden')
+      }
+    }
+  }
+}
+</script>
+  </head>
+  <body>
+    <section class="hero is-primary is-small">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">
+            ACME Anvil Corporation Compliance Program
+          </h1>
+          <p class="subtitle">
+            Policy, Procedure, and Audit Status
+          </p>
+        </div>
+      </div>
+      <div class="hero-foot">
+        <nav class="tabs is-boxed is-fullwidth">
+          <div class="container">
+            <ul class="is-size-4">
+              <li class="top-nav overview">
+                <strong><a onclick="javascript:show('overview')">Overview</a></strong>
+              </li>
+              <li class="top-nav narratives">
+                <strong><a onclick="javascript:show('narratives')">Narratives</a></strong>
+              </li>
+              <li class="top-nav policies">
+                <strong><a onclick="javascript:show('policies')">Policies</a></strong>
+              </li>
+              <li class="top-nav procedures">
+                <strong><a onclick="javascript:show('procedures')">Procedures</a></strong>
+              </li>
+              <li class="top-nav standards">
+                <strong><a onclick="javascript:show('standards')">Standards</a></strong>
+              </li>
+              
+              
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </section>
+    <div id="overview" class="section top-nav container content">
+      <blockquote>
+        <h3>
+          This site consolidates all documents related to the ACME Anvil Corporation Compliance Program
+        </h3>
+      </blockquote>
+      <hr>
+      <div class="columns is-vcentered">
+        <div class="column is-one-third">
+          <div>
+            <p class="subtitle is-3 has-text-centered">
+              Control Tracking
+            </p>
+          </div>
+        </div>
+        <div class="column has-text-centered">
+          <div>
+            <p class="heading">
+              Satisfied Controls
+            </p>
+            <p class="title">61
+            </p>
+          </div>
+        </div>
+        <div class="column has-text-centered">
+          <div>
+            <p class="heading">
+              Total Controls
+            </p>
+            <p class="title">61
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="columns is-vcentered">
+        <div class="column is-one-third">
+          <div>
+            <p class="subtitle is-3 has-text-centered">
+              Procedure Tracking
+            </p>
+          </div>
+        </div>
+        <div class="column has-text-centered">
+          <div>
+            <p class="heading">
+              Active Tickets
+            </p>
+            <p class="title">
+              <a target="_blank" href="">0</a>
+            </p>
+          </div>
+        </div>
+        <div class="column has-text-centered">
+          <div>
+            <p class="heading">
+              Oldest Ticket
+            </p>
+            <p class="title">
+              <a>0 days</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="columns is-vcentered">
+        <div class="column is-one-third">
+          <div class="has-text-centered">
+            <p class="subtitle is-3">
+              Audit Tracking
+            </p>
+          </div>
+        </div>
+        <div class="column has-text-centered">
+          <div>
+            <p class="heading">
+              Open Requests
+            </p>
+            <p class="title">
+              <a target="_blank" href="">0</a>
+            </p>
+          </div>
+        </div>
+        <div class="column has-text-centered">
+          <div>
+            <p class="heading">
+              Total Requests
+            </p>
+            <p class="title">
+              <a target="_blank" href="">0</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="columns is-vcentered">
+        <div class="column is-one-third">
+        </div>
+        <div class="column is-two-thirds has-text-centered">
+          
+        </div>
+      </div>
+    </div>
+    <div id="narratives" class="section top-nav container content">
+      <blockquote>
+        <h3>
+          <p>
+            <strong>Narratives</strong>
+            provide an overview of the organization and the compliance environment.
+          </p>
+        </h3>
+      </blockquote>
+      <table class="table is-size-4">
+        <thead>
+          <tr>
+            <th>
+              Name
+            </th>
+            <th>
+              Acronym
+            </th>
+            <th>
+              PDF
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              Control Environment Narrative
+            </td>
+            <td>
+              CEN
+            </td>
+            <td>
+              <a href="ACME-CEN.pdf" target="_blank">ACME-CEN.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Organizational Narrative
+            </td>
+            <td>
+              ON
+            </td>
+            <td>
+              <a href="ACME-ON.pdf" target="_blank">ACME-ON.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Products and Services Narrative
+            </td>
+            <td>
+              PSN
+            </td>
+            <td>
+              <a href="ACME-PSN.pdf" target="_blank">ACME-PSN.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Security Architecture Narrative
+            </td>
+            <td>
+              SEN
+            </td>
+            <td>
+              <a href="ACME-SEN.pdf" target="_blank">ACME-SEN.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              System Architecture Narrative
+            </td>
+            <td>
+              SAN
+            </td>
+            <td>
+              <a href="ACME-SAN.pdf" target="_blank">ACME-SAN.pdf</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div id="policies" class="section top-nav container content">
+      <blockquote>
+        <h3>
+          <p>
+            <strong>Policies</strong>
+            govern the behavior of ACME Anvil Corporation employees and contractors.
+          </p>
+        </h3>
+      </blockquote>
+      <table class="table is-size-4">
+        <thead>
+          <tr>
+            <th>
+              Name
+            </th>
+            <th>
+              Acronym
+            </th>
+            <th>
+              PDF
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              Access Onboarding and Termination Policy
+            </td>
+            <td>
+              AOTP
+            </td>
+            <td>
+              <a href="ACME-AOTP.pdf" target="_blank">ACME-AOTP.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Application Security Policy
+            </td>
+            <td>
+              ASP
+            </td>
+            <td>
+              <a href="ACME-ASP.pdf" target="_blank">ACME-ASP.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Availability Policy
+            </td>
+            <td>
+              AP
+            </td>
+            <td>
+              <a href="ACME-AP.pdf" target="_blank">ACME-AP.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              System Change Policy
+            </td>
+            <td>
+              SCP
+            </td>
+            <td>
+              <a href="ACME-SCP.pdf" target="_blank">ACME-SCP.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Data Classification Policy
+            </td>
+            <td>
+              DCP
+            </td>
+            <td>
+              <a href="ACME-DCP.pdf" target="_blank">ACME-DCP.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Code of Conduct Policy
+            </td>
+            <td>
+              COCP
+            </td>
+            <td>
+              <a href="ACME-COCP.pdf" target="_blank">ACME-COCP.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Confidentiality Policy
+            </td>
+            <td>
+              CP
+            </td>
+            <td>
+              <a href="ACME-CP.pdf" target="_blank">ACME-CP.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Business Continuity Policy
+            </td>
+            <td>
+              BCP
+            </td>
+            <td>
+              <a href="ACME-BCP.pdf" target="_blank">ACME-BCP.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Cyber Risk Assessment Policy
+            </td>
+            <td>
+              CRP
+            </td>
+            <td>
+              <a href="ACME-CRP.pdf" target="_blank">ACME-CRP.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Datacenter Policy
+            </td>
+            <td>
+              DP
+            </td>
+            <td>
+              <a href="ACME-DP.pdf" target="_blank">ACME-DP.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Software Development Lifecycle Policy
+            </td>
+            <td>
+              SDLCP
+            </td>
+            <td>
+              <a href="ACME-SDLCP.pdf" target="_blank">ACME-SDLCP.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Disaster Recovery Policy
+            </td>
+            <td>
+              DRP
+            </td>
+            <td>
+              <a href="ACME-DRP.pdf" target="_blank">ACME-DRP.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Encryption Policy
+            </td>
+            <td>
+              EP
+            </td>
+            <td>
+              <a href="ACME-EP.pdf" target="_blank">ACME-EP.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Security Incident Response Policy
+            </td>
+            <td>
+              SIRP
+            </td>
+            <td>
+              <a href="ACME-SIRP.pdf" target="_blank">ACME-SIRP.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Information Security Policy
+            </td>
+            <td>
+              ISP
+            </td>
+            <td>
+              <a href="ACME-ISP.pdf" target="_blank">ACME-ISP.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Log Management Policy
+            </td>
+            <td>
+              LMP
+            </td>
+            <td>
+              <a href="ACME-LMP.pdf" target="_blank">ACME-LMP.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Removable Media and Cloud Storage Policy
+            </td>
+            <td>
+              MCP
+            </td>
+            <td>
+              <a href="ACME-MCP.pdf" target="_blank">ACME-MCP.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Office Security Policy
+            </td>
+            <td>
+              OSP
+            </td>
+            <td>
+              <a href="ACME-OSP.pdf" target="_blank">ACME-OSP.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Password Policy
+            </td>
+            <td>
+              PWP
+            </td>
+            <td>
+              <a href="ACME-PWP.pdf" target="_blank">ACME-PWP.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Policy Training Policy
+            </td>
+            <td>
+              PTP
+            </td>
+            <td>
+              <a href="ACME-PTP.pdf" target="_blank">ACME-PTP.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Privacy Management Policy
+            </td>
+            <td>
+              PMP
+            </td>
+            <td>
+              <a href="ACME-PMP.pdf" target="_blank">ACME-PMP.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Processing Integrity Policy
+            </td>
+            <td>
+              PIP
+            </td>
+            <td>
+              <a href="ACME-PIP.pdf" target="_blank">ACME-PIP.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Remote Access Policy
+            </td>
+            <td>
+              REAP
+            </td>
+            <td>
+              <a href="ACME-REAP.pdf" target="_blank">ACME-REAP.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Data Retention Policy
+            </td>
+            <td>
+              RP
+            </td>
+            <td>
+              <a href="ACME-RP.pdf" target="_blank">ACME-RP.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Risk Assessment Policy
+            </td>
+            <td>
+              RIAP
+            </td>
+            <td>
+              <a href="ACME-RIAP.pdf" target="_blank">ACME-RIAP.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Vendor Management Policy
+            </td>
+            <td>
+              VMP
+            </td>
+            <td>
+              <a href="ACME-VMP.pdf" target="_blank">ACME-VMP.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Workstation Policy
+            </td>
+            <td>
+              WP
+            </td>
+            <td>
+              <a href="ACME-WP.pdf" target="_blank">ACME-WP.pdf</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div id="procedures" class="section top-nav container content">
+      <blockquote>
+        <h3>
+          <p>
+            <strong>Procedures</strong>
+            prescribe specific steps that are taken in response to key events.
+          </p>
+        </h3>
+      </blockquote>
+      <table class="table is-size-4">
+        <thead>
+          <tr>
+            <th>
+              Name
+            </th>
+            <th>
+              ID
+            </th>
+            <th>
+              Schedule (cron format)
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              Offboard User
+            </td>
+            <td>
+              offboard
+            </td>
+            <td>
+              On demand
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Onboard New User
+            </td>
+            <td>
+              onboard
+            </td>
+            <td>
+              On demand
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Apply OS patches
+            </td>
+            <td>
+              patch
+            </td>
+            <td class="cron">
+              0 0 0 15 * *
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Collect Workstation Details
+            </td>
+            <td>
+              workstation
+            </td>
+            <td class="cron">
+              0 0 0 15 4 *
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div id="standards" class="section top-nav container content">
+      <blockquote>
+        <h3>
+          <p>
+            <strong>Standards</strong>
+            specify the controls satisfied by the compliance program.
+          </p>
+        </h3>
+      </blockquote>
+      <table class="table is-size-4 is-fullwidth">
+        <thead>
+          <tr>
+            <th>
+              Control Key
+            </th>
+            <th>
+              Name
+            </th>
+            <th>
+              Satisfied?
+            </th>
+            <th>
+              Satisfied By
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              A1.1
+            </td>
+            <td>
+              <strong>Capacity Planning</strong>
+              <div class="subtitle">
+                The entity maintains, monitors, and evaluates current processing capacity and use of system components (infrastructure, data, and software) to manage capacity demand and to enable the implementation of additional capacity to help meet its objectives
+              </div>
+            </td>
+            <td class="is-success">
+              Yes
+            </td>
+            <td>
+              <a class="is-size-7" href="ACME-AP.pdf" target="_blank">ACME-AP.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              A1.2
+            </td>
+            <td>
+              <strong>Backup and Recovery</strong>
+              <div class="subtitle">
+                The entity authorizes, designs, develops or acquires, implements, operates, approves, maintains, and monitors environmental protections, software, data back-up processes, and recovery infrastructure to meet its objectives
+              </div>
+            </td>
+            <td class="is-success">
+              Yes
+            </td>
+            <td>
+              <a class="is-size-7" href="ACME-DRP.pdf" target="_blank">ACME-DRP.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              A1.3
+            </td>
+            <td>
+              <strong>Recovery Testing</strong>
+              <div class="subtitle">
+                The entity tests recovery plan procedures supporting system recovery to meet its objectives
+              </div>
+            </td>
+            <td class="is-success">
+              Yes
+            </td>
+            <td>
+              <a class="is-size-7" href="ACME-DRP.pdf" target="_blank">ACME-DRP.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              C1.1
+            </td>
+            <td>
+              <strong>Confidential Information Identification</strong>
+              <div class="subtitle">
+                The entity identifies and maintains confidential information to meet the entity’s objectives related to confidentiality
+              </div>
+            </td>
+            <td class="is-success">
+              Yes
+            </td>
+            <td>
+              <a class="is-size-7" href="ACME-CP.pdf" target="_blank">ACME-CP.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              C1.2
+            </td>
+            <td>
+              <strong>Confidential Information Disposal</strong>
+              <div class="subtitle">
+                The entity disposes of confidential information to meet the entity’s objectives related to confidentiality.
+              </div>
+            </td>
+            <td class="is-success">
+              Yes
+            </td>
+            <td>
+              <a class="is-size-7" href="ACME-CP.pdf" target="_blank">ACME-CP.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              CC1.1
+            </td>
+            <td>
+              <strong>Integrity and Ethics</strong>
+              <div class="subtitle">
+                The entity demonstrates a commitment to integrity and ethical values
+              </div>
+            </td>
+            <td class="is-success">
+              Yes
+            </td>
+            <td>
+              <a class="is-size-7" href="ACME-COCP.pdf" target="_blank">ACME-COCP.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              CC1.2
+            </td>
+            <td>
+              <strong>Board Independence</strong>
+              <div class="subtitle">
+                The board of directors demonstrates independence from management and exercises oversight of the development and performance of internal control
+              </div>
+            </td>
+            <td class="is-success">
+              Yes
+            </td>
+            <td>
+              <a class="is-size-7" href="ACME-ON.pdf" target="_blank">ACME-ON.pdf</a>
+              <a class="is-size-7" href="ACME-RP.pdf" target="_blank">ACME-RP.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              CC1.3
+            </td>
+            <td>
+              <strong>Organizational Structure</strong>
+              <div class="subtitle">
+                Management establishes, with board oversight, structures, reporting lines, and appropriate authorities and responsibilities in the pursuit of objectives
+              </div>
+            </td>
+            <td class="is-success">
+              Yes
+            </td>
+            <td>
+              <a class="is-size-7" href="ACME-ON.pdf" target="_blank">ACME-ON.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              CC1.4
+            </td>
+            <td>
+              <strong>Hiring, Training and Retention</strong>
+              <div class="subtitle">
+                The entity demonstrates a commitment to attract, develop, and retain competent individuals in alignment with objectives
+              </div>
+            </td>
+            <td class="is-success">
+              Yes
+            </td>
+            <td>
+              <a class="is-size-7" href="ACME-ON.pdf" target="_blank">ACME-ON.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              CC1.5
+            </td>
+            <td>
+              <strong>Individual Accountability</strong>
+              <div class="subtitle">
+                The entity holds individuals accountable for their internal control responsibilities in the pursuit of objectives.
+              </div>
+            </td>
+            <td class="is-success">
+              Yes
+            </td>
+            <td>
+              <a class="is-size-7" href="ACME-ON.pdf" target="_blank">ACME-ON.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              CC2.1
+            </td>
+            <td>
+              <strong>Use of Information Systems</strong>
+              <div class="subtitle">
+                The entity obtains or generates and uses relevant, quality information to support the functioning of internal control
+              </div>
+            </td>
+            <td class="is-success">
+              Yes
+            </td>
+            <td>
+              <a class="is-size-7" href="ACME-CEN.pdf" target="_blank">ACME-CEN.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              CC2.2
+            </td>
+            <td>
+              <strong>Use of Communication Systems, Internal</strong>
+              <div class="subtitle">
+                The entity internally communicates information, including objectives and responsibilities for internal control, necessary to support the functioning of internal control
+              </div>
+            </td>
+            <td class="is-success">
+              Yes
+            </td>
+            <td>
+              <a class="is-size-7" href="ACME-CEN.pdf" target="_blank">ACME-CEN.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              CC2.3
+            </td>
+            <td>
+              <strong>Use of Communication Systems, External</strong>
+              <div class="subtitle">
+                The entity communicates with external parties regarding matters affecting the functioning of internal control
+              </div>
+            </td>
+            <td class="is-success">
+              Yes
+            </td>
+            <td>
+              <a class="is-size-7" href="ACME-CEN.pdf" target="_blank">ACME-CEN.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              CC3.1
+            </td>
+            <td>
+              <strong>Objectives</strong>
+              <div class="subtitle">
+                The entity specifies objectives with sufficient clarity to enable the identification and assessment of risks relating to objectives
+              </div>
+            </td>
+            <td class="is-success">
+              Yes
+            </td>
+            <td>
+              <a class="is-size-7" href="ACME-ON.pdf" target="_blank">ACME-ON.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              CC3.2
+            </td>
+            <td>
+              <strong>Risk to Objectives</strong>
+              <div class="subtitle">
+                The entity identifies risks to the achievement of its objectives across the entity and analyzes risks as a basis for determining how the risks should be managed
+              </div>
+            </td>
+            <td class="is-success">
+              Yes
+            </td>
+            <td>
+              <a class="is-size-7" href="ACME-ON.pdf" target="_blank">ACME-ON.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              CC3.3
+            </td>
+            <td>
+              <strong>Fraud Risk to Objectives</strong>
+              <div class="subtitle">
+                The entity considers the potential for fraud in assessing risks to the achievement of objectives
+              </div>
+            </td>
+            <td class="is-success">
+              Yes
+            </td>
+            <td>
+              <a class="is-size-7" href="ACME-ON.pdf" target="_blank">ACME-ON.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              CC3.4
+            </td>
+            <td>
+              <strong>Impact of Changes</strong>
+              <div class="subtitle">
+                The entity identifies and assesses changes that could significantly impact the system of internal control
+              </div>
+            </td>
+            <td class="is-success">
+              Yes
+            </td>
+            <td>
+              <a class="is-size-7" href="ACME-SCP.pdf" target="_blank">ACME-SCP.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              CC4.1
+            </td>
+            <td>
+              <strong>Monitoring</strong>
+              <div class="subtitle">
+                The entity selects, develops, and performs ongoing and/or separate evaluations to ascertain whether the components of internal control are present and functioning
+              </div>
+            </td>
+            <td class="is-success">
+              Yes
+            </td>
+            <td>
+              <a class="is-size-7" href="ACME-CEN.pdf" target="_blank">ACME-CEN.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              CC4.2
+            </td>
+            <td>
+              <strong>Remediation</strong>
+              <div class="subtitle">
+                The entity evaluates and communicates internal control deficiencies in a timely manner to those parties responsible for taking corrective action, including senior management and the board of directors, as appropriate
+              </div>
+            </td>
+            <td class="is-success">
+              Yes
+            </td>
+            <td>
+              <a class="is-size-7" href="ACME-CEN.pdf" target="_blank">ACME-CEN.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              CC5.1
+            </td>
+            <td>
+              <strong>Objective Risk Mitigation</strong>
+              <div class="subtitle">
+                The entity selects and develops control activities that contribute to the mitigation of risks to the achievement of objectives to acceptable levels
+              </div>
+            </td>
+            <td class="is-success">
+              Yes
+            </td>
+            <td>
+              <a class="is-size-7" href="ACME-CEN.pdf" target="_blank">ACME-CEN.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              CC5.2
+            </td>
+            <td>
+              <strong>Technology Controls</strong>
+              <div class="subtitle">
+                The entity also selects and develops general control activities over technology to support the achievement of objectives
+              </div>
+            </td>
+            <td class="is-success">
+              Yes
+            </td>
+            <td>
+              <a class="is-size-7" href="ACME-CEN.pdf" target="_blank">ACME-CEN.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              CC5.3
+            </td>
+            <td>
+              <strong>Established Policies</strong>
+              <div class="subtitle">
+                The entity deploys control activities through policies that establish what is expected and in procedures that put policies into action
+              </div>
+            </td>
+            <td class="is-success">
+              Yes
+            </td>
+            <td>
+              <a class="is-size-7" href="ACME-CEN.pdf" target="_blank">ACME-CEN.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              CC6.1
+            </td>
+            <td>
+              <strong>Logical Access</strong>
+              <div class="subtitle">
+                The entity implements logical access security software, infrastructure, and architectures over protected information assets to protect them from security events to meet the entity’s objectives
+              </div>
+            </td>
+            <td class="is-success">
+              Yes
+            </td>
+            <td>
+              <a class="is-size-7" href="ACME-AOTP.pdf" target="_blank">ACME-AOTP.pdf</a>
+              <a class="is-size-7" href="ACME-REAP.pdf" target="_blank">ACME-REAP.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              CC6.2
+            </td>
+            <td>
+              <strong>User Access</strong>
+              <div class="subtitle">
+                Prior to issuing system credentials and granting system access, the entity registers and authorizes new internal and external users whose access is administered by the entity. For those users whose access is administered by the entity, user system credentials are removed when user access is no longer authorized
+              </div>
+            </td>
+            <td class="is-success">
+              Yes
+            </td>
+            <td>
+              <a class="is-size-7" href="ACME-AOTP.pdf" target="_blank">ACME-AOTP.pdf</a>
+              <a class="is-size-7" href="ACME-ASP.pdf" target="_blank">ACME-ASP.pdf</a>
+              <a class="is-size-7" href="ACME-REAP.pdf" target="_blank">ACME-REAP.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              CC6.3
+            </td>
+            <td>
+              <strong>Role-Based Access</strong>
+              <div class="subtitle">
+                The entity authorizes, modifies, or removes access to data, software, functions, and other protected information assets based on roles, responsibilities, or the system design and changes, giving consideration to the concepts of least privilege and segregation of duties, to meet the entity’s objectives
+              </div>
+            </td>
+            <td class="is-success">
+              Yes
+            </td>
+            <td>
+              <a class="is-size-7" href="ACME-AOTP.pdf" target="_blank">ACME-AOTP.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              CC6.4
+            </td>
+            <td>
+              <strong>Physical Access</strong>
+              <div class="subtitle">
+                The entity restricts physical access to facilities and protected information assets (for example, data center facilities, back-up media storage, and other sensitive locations) to authorized personnel to meet the entity’s objectives
+              </div>
+            </td>
+            <td class="is-success">
+              Yes
+            </td>
+            <td>
+              <a class="is-size-7" href="ACME-DP.pdf" target="_blank">ACME-DP.pdf</a>
+              <a class="is-size-7" href="ACME-OSP.pdf" target="_blank">ACME-OSP.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              CC6.5
+            </td>
+            <td>
+              <strong>Data Disposal</strong>
+              <div class="subtitle">
+                The entity discontinues logical and physical protections over physical assets only after the ability to read or recover data and software from those assets has been diminished and is no longer required to meet the entity’s objectives
+              </div>
+            </td>
+            <td class="is-success">
+              Yes
+            </td>
+            <td>
+              <a class="is-size-7" href="ACME-RP.pdf" target="_blank">ACME-RP.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              CC6.6
+            </td>
+            <td>
+              <strong>External Threats</strong>
+              <div class="subtitle">
+                The entity implements logical access security measures to protect against threats from sources outside its system boundaries
+              </div>
+            </td>
+            <td class="is-success">
+              Yes
+            </td>
+            <td>
+              <a class="is-size-7" href="ACME-SEN.pdf" target="_blank">ACME-SEN.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              CC6.7
+            </td>
+            <td>
+              <strong>Data Custody and Transmission</strong>
+              <div class="subtitle">
+                The entity restricts the transmission, movement, and removal of information to authorized internal and external users and processes, and protects it during transmission, movement, or removal to meet the entity’s objectives
+              </div>
+            </td>
+            <td class="is-success">
+              Yes
+            </td>
+            <td>
+              <a class="is-size-7" href="ACME-SEN.pdf" target="_blank">ACME-SEN.pdf</a>
+              <a class="is-size-7" href="ACME-MCP.pdf" target="_blank">ACME-MCP.pdf</a>
+              <a class="is-size-7" href="ACME-REAP.pdf" target="_blank">ACME-REAP.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              CC6.8
+            </td>
+            <td>
+              <strong>Malware Detection</strong>
+              <div class="subtitle">
+                The entity implements controls to prevent or detect and act upon the introduction of unauthorized or malicious software to meet the entity’s objectives
+              </div>
+            </td>
+            <td class="is-success">
+              Yes
+            </td>
+            <td>
+              <a class="is-size-7" href="ACME-WP.pdf" target="_blank">ACME-WP.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              CC7.1
+            </td>
+            <td>
+              <strong>Vulnerability Detection</strong>
+              <div class="subtitle">
+                To meet its objectives, the entity uses detection and monitoring procedures to identify (1) changes to configurations that result in the introduction of new vulnerabilities, and (2) susceptibilities to newly discovered vulnerabilities
+              </div>
+            </td>
+            <td class="is-success">
+              Yes
+            </td>
+            <td>
+              <a class="is-size-7" href="ACME-SEN.pdf" target="_blank">ACME-SEN.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              CC7.2
+            </td>
+            <td>
+              <strong>Anomaly Detection</strong>
+              <div class="subtitle">
+                The entity monitors system components and the operation of those components for anomalies that are indicative of malicious acts, natural disasters, and errors affecting the entity’s ability to meet its objectives; anomalies are analyzed to determine whether they represent security events
+              </div>
+            </td>
+            <td class="is-success">
+              Yes
+            </td>
+            <td>
+              <a class="is-size-7" href="ACME-SEN.pdf" target="_blank">ACME-SEN.pdf</a>
+              <a class="is-size-7" href="ACME-LMP.pdf" target="_blank">ACME-LMP.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              CC7.3
+            </td>
+            <td>
+              <strong>Security Incident Evaluation</strong>
+              <div class="subtitle">
+                The entity evaluates security events to determine whether they could or have resulted in a failure of the entity to meet its objectives (security incidents) and, if so, takes actions to prevent or address such failures
+              </div>
+            </td>
+            <td class="is-success">
+              Yes
+            </td>
+            <td>
+              <a class="is-size-7" href="ACME-SIRP.pdf" target="_blank">ACME-SIRP.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              CC7.4
+            </td>
+            <td>
+              <strong>Security Incident Response Plan</strong>
+              <div class="subtitle">
+                The entity responds to identified security incidents by executing a defined incident response program to understand, contain, remediate, and communicate security incidents, as appropriate
+              </div>
+            </td>
+            <td class="is-success">
+              Yes
+            </td>
+            <td>
+              <a class="is-size-7" href="ACME-SIRP.pdf" target="_blank">ACME-SIRP.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              CC7.5
+            </td>
+            <td>
+              <strong>Security Incident Response Execution</strong>
+              <div class="subtitle">
+                The entity identifies, develops, and implements activities to recover from identified security incidents
+              </div>
+            </td>
+            <td class="is-success">
+              Yes
+            </td>
+            <td>
+              <a class="is-size-7" href="ACME-SIRP.pdf" target="_blank">ACME-SIRP.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              CC8.1
+            </td>
+            <td>
+              <strong>Change Control</strong>
+              <div class="subtitle">
+                The entity authorizes, designs, develops or acquires, configures, documents, tests, approves, and implements changes to infrastructure, data, software, and procedures to meet its objectives
+              </div>
+            </td>
+            <td class="is-success">
+              Yes
+            </td>
+            <td>
+              <a class="is-size-7" href="ACME-SCP.pdf" target="_blank">ACME-SCP.pdf</a>
+              <a class="is-size-7" href="ACME-SDLCP.pdf" target="_blank">ACME-SDLCP.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              CC9.1
+            </td>
+            <td>
+              <strong>Disruption Risk Mitigation</strong>
+              <div class="subtitle">
+                The entity identifies, selects, and develops risk mitigation activities for risks arising from potential business disruptions
+              </div>
+            </td>
+            <td class="is-success">
+              Yes
+            </td>
+            <td>
+              <a class="is-size-7" href="ACME-AP.pdf" target="_blank">ACME-AP.pdf</a>
+              <a class="is-size-7" href="ACME-BCP.pdf" target="_blank">ACME-BCP.pdf</a>
+              <a class="is-size-7" href="ACME-CRP.pdf" target="_blank">ACME-CRP.pdf</a>
+              <a class="is-size-7" href="ACME-RIAP.pdf" target="_blank">ACME-RIAP.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              CC9.2
+            </td>
+            <td>
+              <strong>Vendor Risk Management</strong>
+              <div class="subtitle">
+                The entity assesses and manages risks associated with vendors and business partners
+              </div>
+            </td>
+            <td class="is-success">
+              Yes
+            </td>
+            <td>
+              <a class="is-size-7" href="ACME-VMP.pdf" target="_blank">ACME-VMP.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              P1.1
+            </td>
+            <td>
+              <strong>Privacy Notification</strong>
+              <div class="subtitle">
+                The entity provides notice to data subjects about its privacy practices to meet the entity’s objectives related to privacy. The notice is updated and communicated to data subjects in a timely manner for changes to the entity’s privacy practices, including changes in the use of personal information, to meet the entity’s objectives related to privacy
+              </div>
+            </td>
+            <td class="is-success">
+              Yes
+            </td>
+            <td>
+              <a class="is-size-7" href="ACME-PMP.pdf" target="_blank">ACME-PMP.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              P2.1
+            </td>
+            <td>
+              <strong>Privacy Consent and Choice</strong>
+              <div class="subtitle">
+                The entity communicates choices available regarding the collection, use, retention, disclosure, and disposal of personal information to the data subjects and the consequences, if any, of each choice. Explicit consent for the collection, use, retention, disclosure, and disposal of personal information is obtained from data subjects or other authorized persons, if required. Such consent is obtained only for the intended purpose of the information to meet the entity’s objectives related to privacy. The entity’s basis for determining implicit consent for the collection, use, retention, disclosure, and disposal of personal information is documented
+              </div>
+            </td>
+            <td class="is-success">
+              Yes
+            </td>
+            <td>
+              <a class="is-size-7" href="ACME-PMP.pdf" target="_blank">ACME-PMP.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              P3.1
+            </td>
+            <td>
+              <strong>Personal Information Collection</strong>
+              <div class="subtitle">
+                Personal information is collected consistent with the entity’s objectives related to privacy
+              </div>
+            </td>
+            <td class="is-success">
+              Yes
+            </td>
+            <td>
+              <a class="is-size-7" href="ACME-PMP.pdf" target="_blank">ACME-PMP.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              P3.2
+            </td>
+            <td>
+              <strong>Explicit Consent</strong>
+              <div class="subtitle">
+                For information requiring explicit consent, the entity communicates the need for such consent, as well as the consequences of a failure to provide consent for the request for personal information, and obtains the consent prior to the collection of the information to meet the entity’s objectives related to privacy
+              </div>
+            </td>
+            <td class="is-success">
+              Yes
+            </td>
+            <td>
+              <a class="is-size-7" href="ACME-PMP.pdf" target="_blank">ACME-PMP.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              P4.1
+            </td>
+            <td>
+              <strong>Proper Use of Personal Information</strong>
+              <div class="subtitle">
+                The entity limits the use of personal information to the purposes identified in the entity’s objectives related to privacy
+              </div>
+            </td>
+            <td class="is-success">
+              Yes
+            </td>
+            <td>
+              <a class="is-size-7" href="ACME-PMP.pdf" target="_blank">ACME-PMP.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              P4.2
+            </td>
+            <td>
+              <strong>Personal Information Retention</strong>
+              <div class="subtitle">
+                The entity retains personal information consistent with the entity’s objectives related to privacy
+              </div>
+            </td>
+            <td class="is-success">
+              Yes
+            </td>
+            <td>
+              <a class="is-size-7" href="ACME-PMP.pdf" target="_blank">ACME-PMP.pdf</a>
+              <a class="is-size-7" href="ACME-RP.pdf" target="_blank">ACME-RP.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              P4.3
+            </td>
+            <td>
+              <strong>Personal Information Disposal</strong>
+              <div class="subtitle">
+                The entity securely disposes of personal information to meet the entity’s objectives related to privacy
+              </div>
+            </td>
+            <td class="is-success">
+              Yes
+            </td>
+            <td>
+              <a class="is-size-7" href="ACME-PMP.pdf" target="_blank">ACME-PMP.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              P5.1
+            </td>
+            <td>
+              <strong>Data Subject Access</strong>
+              <div class="subtitle">
+                The entity grants identified and authenticated data subjects the ability to access their stored personal information for review and, upon request, provides physical or electronic copies of that information to data subjects to meet the entity’s objectives related to privacy. If access is denied, data subjects are informed of the denial and reason for such denial, as required, to meet the entity’s objectives related to privacy
+              </div>
+            </td>
+            <td class="is-success">
+              Yes
+            </td>
+            <td>
+              <a class="is-size-7" href="ACME-PMP.pdf" target="_blank">ACME-PMP.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              P5.2
+            </td>
+            <td>
+              <strong>Data Subject Amendment</strong>
+              <div class="subtitle">
+                The entity corrects, amends, or appends personal information based on information provided by data subjects and communicates such information to third parties, as committed or required, to meet the entity’s objectives related to privacy. If a request for correction is denied, data subjects are informed of the denial and reason for such denial to meet the entity’s objectives related to privacy
+              </div>
+            </td>
+            <td class="is-success">
+              Yes
+            </td>
+            <td>
+              <a class="is-size-7" href="ACME-PMP.pdf" target="_blank">ACME-PMP.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              P6.1
+            </td>
+            <td>
+              <strong>Consent for Third Party Disclosure</strong>
+              <div class="subtitle">
+                The entity discloses personal information to third parties with the explicit consent of data subjects, and such consent is obtained prior to disclosure to meet the entity’s objectives related to privacy
+              </div>
+            </td>
+            <td class="is-success">
+              Yes
+            </td>
+            <td>
+              <a class="is-size-7" href="ACME-PMP.pdf" target="_blank">ACME-PMP.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              P6.2
+            </td>
+            <td>
+              <strong>Authorized Disclosures</strong>
+              <div class="subtitle">
+                The entity creates and retains a complete, accurate, and timely record of authorized disclosures of personal information to meet the entity’s objectives related to privacy
+              </div>
+            </td>
+            <td class="is-success">
+              Yes
+            </td>
+            <td>
+              <a class="is-size-7" href="ACME-PMP.pdf" target="_blank">ACME-PMP.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              P6.3
+            </td>
+            <td>
+              <strong>Unauthorized Disclosures</strong>
+              <div class="subtitle">
+                The entity creates and retains a complete, accurate, and timely record of detected or reported unauthorized disclosures (including breaches) of personal information to meet the entity’s objectives related to privacy
+              </div>
+            </td>
+            <td class="is-success">
+              Yes
+            </td>
+            <td>
+              <a class="is-size-7" href="ACME-PMP.pdf" target="_blank">ACME-PMP.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              P6.4
+            </td>
+            <td>
+              <strong>Appropriate Third Party Disclosure</strong>
+              <div class="subtitle">
+                The entity obtains privacy commitments from vendors and other third parties who have access to personal information to meet the entity’s objectives related to privacy. The entity assesses those parties’ compliance on a periodic and as-needed basis and takes corrective action, if necessary
+              </div>
+            </td>
+            <td class="is-success">
+              Yes
+            </td>
+            <td>
+              <a class="is-size-7" href="ACME-PMP.pdf" target="_blank">ACME-PMP.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              P6.5
+            </td>
+            <td>
+              <strong>Unauthorized Third Party Disclosure</strong>
+              <div class="subtitle">
+                The entity obtains commitments from vendors and other third parties with access to personal information to notify the entity in the event of actual or suspected unauthorized disclosures of personal information. Such notifications are reported to appropriate personnel and acted on in accordance with established incident response procedures to meet the entity’s objectives related to privacy
+              </div>
+            </td>
+            <td class="is-success">
+              Yes
+            </td>
+            <td>
+              <a class="is-size-7" href="ACME-PMP.pdf" target="_blank">ACME-PMP.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              P6.6
+            </td>
+            <td>
+              <strong>Notification of Unauthorized Third Party Disclosure</strong>
+              <div class="subtitle">
+                The entity provides notification of breaches and incidents to affected data subjects, regulators, and others to meet the entity’s objectives related to privacy
+              </div>
+            </td>
+            <td class="is-success">
+              Yes
+            </td>
+            <td>
+              <a class="is-size-7" href="ACME-PMP.pdf" target="_blank">ACME-PMP.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              P6.7
+            </td>
+            <td>
+              <strong>Accounting of Personal Information</strong>
+              <div class="subtitle">
+                The entity provides data subjects with an accounting of the personal information held and disclosure of the data subjects’ personal information, upon the data subjects’ request, to meet the entity’s objectives related to privacy
+              </div>
+            </td>
+            <td class="is-success">
+              Yes
+            </td>
+            <td>
+              <a class="is-size-7" href="ACME-PMP.pdf" target="_blank">ACME-PMP.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              P7.1
+            </td>
+            <td>
+              <strong>Accuracy of Personal Information</strong>
+              <div class="subtitle">
+                The entity collects and maintains accurate, up-to-date, complete, and relevant personal information to meet the entity’s objectives related to privacy
+              </div>
+            </td>
+            <td class="is-success">
+              Yes
+            </td>
+            <td>
+              <a class="is-size-7" href="ACME-PMP.pdf" target="_blank">ACME-PMP.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              P8.1
+            </td>
+            <td>
+              <strong>Personal Information Dispute Resolution</strong>
+              <div class="subtitle">
+                The entity implements a process for receiving, addressing, resolving, and communicating the resolution of inquiries, complaints, and disputes from data subjects and others and periodically monitors compliance to meet the entity’s objectives related to privacy. Corrections and other necessary actions related to identified deficiencies are made or taken in a timely manner
+              </div>
+            </td>
+            <td class="is-success">
+              Yes
+            </td>
+            <td>
+              <a class="is-size-7" href="ACME-PMP.pdf" target="_blank">ACME-PMP.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              PI1.1
+            </td>
+            <td>
+              <strong>Processing Integrity Monitoring</strong>
+              <div class="subtitle">
+                The entity obtains or generates, uses, and communicates relevant, quality information regarding the objectives related to processing, including de nitions of data processed and product and service speci cations, to support the use of products and services
+              </div>
+            </td>
+            <td class="is-success">
+              Yes
+            </td>
+            <td>
+              <a class="is-size-7" href="ACME-PIP.pdf" target="_blank">ACME-PIP.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              PI1.2
+            </td>
+            <td>
+              <strong>Processing Integrity Accuracy</strong>
+              <div class="subtitle">
+                The entity implements policies and procedures over system inputs, including controls over completeness and accuracy, to result in products, services, and reporting to meet the entity’s objectives
+              </div>
+            </td>
+            <td class="is-success">
+              Yes
+            </td>
+            <td>
+              <a class="is-size-7" href="ACME-PIP.pdf" target="_blank">ACME-PIP.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              PI1.3
+            </td>
+            <td>
+              <strong>Processing Integrity Operations</strong>
+              <div class="subtitle">
+                The entity implements policies and procedures over system processing to result in products, services, and reporting to meet the entity’s objectives
+              </div>
+            </td>
+            <td class="is-success">
+              Yes
+            </td>
+            <td>
+              <a class="is-size-7" href="ACME-PIP.pdf" target="_blank">ACME-PIP.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              PI1.4
+            </td>
+            <td>
+              <strong>Processing Integrity Outputs</strong>
+              <div class="subtitle">
+                The entity implements policies and procedures to make available or deliver output completely, accurately, and timely in accordance with speci cations to meet the entity’s objectives
+              </div>
+            </td>
+            <td class="is-success">
+              Yes
+            </td>
+            <td>
+              <a class="is-size-7" href="ACME-PIP.pdf" target="_blank">ACME-PIP.pdf</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              PI1.5
+            </td>
+            <td>
+              <strong>Processing Integrity Backups</strong>
+              <div class="subtitle">
+                The entity implements policies and procedures to store inputs, items in processing, and outputs completely, accurately, and timely in accordance with system speci cations to meet the entity’s objectives
+              </div>
+            </td>
+            <td class="is-success">
+              Yes
+            </td>
+            <td>
+              <a class="is-size-7" href="ACME-PIP.pdf" target="_blank">ACME-PIP.pdf</a>
+            </td>
+          </tr>
+
+        </tbody>
+      </table>
+    </div>
+    <footer class="footer">
+      <div class="container">
+        <div class="content has-text-centered">
+          <p>
+            ACME Anvil Corporation Confidential 2018
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script type="text/javascript">
+if (window.location.hash=="") {
+  show('overview')
+} else {
+  var hashComponents = window.location.hash.split('#')
+  if (hashComponents.length>1) {
+    var destination = hashComponents[1]
+    if (["overview","narratives","policies","procedures","standards"].indexOf(destination) >= 0) {
+      show(destination)
+    }
+  }
+}
+</script>
+</html>
