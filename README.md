@@ -33,7 +33,7 @@ The `output/` directory contains all generated assets. Links in the HTML dashboa
 //TODO:
 1. Integrate with GitHub Pull Request functionality.
 2. Option to push to GoogleDocs vs GitHub.
-3. Enable corporat branding template for rendered policies.
+3. Enable a corporate branding template option.
 
 ---    
 
