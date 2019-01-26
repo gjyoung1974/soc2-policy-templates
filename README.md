@@ -30,6 +30,12 @@ git add --all && git commit -m'edited some policy file' && git push
 
 The `output/` directory contains all generated assets. Links in the HTML dashboard a relative, and all dependencies are included via direct CDN references. The entire `output/` directory therefore may be uploaded to an S3 bucket or other static asset host without further modification.
 
+//TODO:
+1. Integrate with GitHub Pull Request functionality.
+2. Option to push to GoogleDocs vs GitHub.
+3. Enable corporat branding template for rendered policies.
+
 ---    
 
 2019 gjyoung1974@gmail.com
+
