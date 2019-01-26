@@ -14,47 +14,22 @@ standards/      Standards specify the controls satisfied by the compliance progr
 templates/      Templates control the output format of the HTML Dashboard and PDF assets.
 ```
 
-# Building
+# Building & Publishing
 
-Assets are built using [`comply`](https://comply.strongdm.com), which can be installed via `brew install comply` (macOS) or `go get github.com/strongdm/comply`
+1. Clone this repository.    
+2. Make the required edits to the policy markdown files.    
+3. Check it back in:     
+
+```shell
+git add --all && git commit -m'edited some policy file' && git push
+```  
+
+4. a cicleci job will run and render policy files as PDF.
 
 # Publishing
 
 The `output/` directory contains all generated assets. Links in the HTML dashboard a relative, and all dependencies are included via direct CDN references. The entire `output/` directory therefore may be uploaded to an S3 bucket or other static asset host without further modification.
 
-# Dashboard Status
+---    
 
-Procedure tracking is updated whenever `comply sync` is invoked. Invoke a sync prior to `comply build` to include the most current ticket status.
-
-# Procedure Scheduler
-
-Any `procedures/` that include a `cron` schedule will automatically created in your configured ticketing system whenever `comply scheduler` is executed. The scheduler will backfill any overdue tickets.
-
-# Deployment Recommendation
-
-Invoke a script similar to the following at least once per day:
-
-```
-#!/bin/bash
-#
-# prerequisites:
-#   git access
-#   ticketing configuration in comply.yml
-#   upload.sh to publish static site
-#
-
-# get latest policies and procedures
-git pull
-
-# update ticketing status
-comply sync
-
-# trigger creation of scheduled tickets
-comply scheduler
-
-# build latest
-comply build
-
-# publish static site from output/ directory
-upload.sh output/
-```
+2019 gjyoung1974@gmail.com
