@@ -1,8 +1,10 @@
 version: 2
 jobs:
   build:
-    docker: # use the docker executor type; machine and macos executors are also supported
-      - image: gjyoung1974/complyapp:latest # the primary container, where your job's commands are run
+    docker:
+      - image: gjyoung1974/complyapp:latest
+    working_directory: /source
     steps:
-      - checkout # check out the code in the project directory
-      - run:  --env gh_token=${GITHUB_TOKEN} --env gh_user=${GITHUB_USER} --env gh_email=${GITHUB_EMAIL} --env gh_repo=${GITHUB_REPO} gjyoung1974/complyapp:latest
+      - run: echo doing nothing.
+
+      # --env gh_token=${GITHUB_TOKEN} --env gh_user=${GITHUB_USER} --env gh_email=${GITHUB_EMAIL} --env gh_repo=${GITHUB_REPO} gjyoung1974/complyapp:latest
