@@ -1,35 +1,15 @@
 version: 2
 jobs:
   build:
-      #   docker:
-      #     - image: busybox
-      #   working_directory: /home/circleci/image-builder
-      #   steps:
-      #     - run: echo starting Docker.
-      # ###########################
-      # #### ubuntu-14.04-XXL #####
-      # ###########################
-      ubuntu-14.04-XXL:
-        machine:
-          docker_layer_caching: true
-        working_directory: /home/circleci/image-builder
-        environment:
-          IMAGE_REPO: circleci/build-image
-          TARGET: ubuntu-14.04-XXL
-          _TARGET: ubuntu-14_04-XXL
-        steps:
-          # - checkout
-          # # - run: echo -n "$TARGET-$CIRCLE_BUILD_NUM-$(git rev-parse --short HEAD)" > _tag
-          # # - run: echo "Building $IMAGE_REPO:$(cat _tag)"
-          # # - run:
-          # #     command: |
-          # #       docker build \
-          # #       $NO_CACHE \
-          # #       --build-arg IMAGE_TAG=$(cat _tag) \
-          # #       -t $IMAGE_REPO:$(cat _tag) \
-          # #       -f targets/$TARGET/Dockerfile \
-          # #       .
-          # - run: docker rm --force $TARGET-test || true
-          - run:
-              command: |
-                docker run --env gh_token=${GITHUB_TOKEN} --env gh_user=${GITHUB_USER} --env gh_email=${GITHUB_EMAIL} --env gh_repo="soc2-policy-templates" ${COMPLY_APP_IMAGE}
+    ubuntu-14.04-XXL:
+      machine:
+        docker_layer_caching: true
+      working_directory: /home/circleci/image-builder
+      environment:
+        IMAGE_REPO: circleci/build-image
+        TARGET: ubuntu-14.04-XXL
+        _TARGET: ubuntu-14_04-XXL
+      steps:
+        - run:
+            command: |
+              docker run --env gh_token=${GITHUB_TOKEN} --env gh_user=${GITHUB_USER} --env gh_email=${GITHUB_EMAIL} --env gh_repo="soc2-policy-templates" ${COMPLY_APP_IMAGE}
