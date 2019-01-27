@@ -2,6 +2,8 @@
 
 This repository consolidates all documents related to the ACME Anvil Corporation Compliance Program.
 
+This example leverages the great work of the: [strongdm comply](https://github.com/strongdm/comply) compliance automation framework.    
+
 # Structure
 
 Compliance documents are organized as follows:
