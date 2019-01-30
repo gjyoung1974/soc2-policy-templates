@@ -30,7 +30,10 @@ git add --all && git commit -m'edited some policy file' && git push
 
 # Publishing
 
-The `output/` directory contains all generated assets. Links in the HTML dashboard a relative, and all dependencies are included via direct CDN references. The entire `output/` directory therefore may be uploaded to an S3 bucket or other static asset host without further modification.
+The `output/` directory contains all generated assets. Links in the HTML dashboard a relative, and all dependencies are included via direct CDN references. The entire `output/` directory therefore may be uploaded to an S3 bucket or other static asset host without further modification.    
+
+# Convert source documentation to MarkDown     
+[Pandoc Demos](https://pandoc.org/demos.html)     
 
 //TODO:
 1. Integrate with GitHub Pull Request functionality.
