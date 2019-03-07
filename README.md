@@ -35,7 +35,7 @@ The `output/` directory contains all generated assets. Links in the HTML dashboa
 # Convert source documentation to MarkDown     
 [Pandoc Demos](https://pandoc.org/demos.html)     
 
-//TODO:
+# TODOs:
 1. Integrate with GitHub Pull Request functionality.
 2. Option to push to GoogleDocs vs GitHub.
 3. Enable a corporate branding template option.
