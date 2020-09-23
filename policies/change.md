@@ -5,7 +5,7 @@ satisfies:
     - CC8.1
     - CC3.4
 majorRevisions:
-  - date: Jun 1 2018
+  - date: Sept. 23 2020
     comment: Initial document
 ---
 

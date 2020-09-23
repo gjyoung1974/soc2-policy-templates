@@ -21,7 +21,7 @@ satisfies:
     - P7.1
     - P8.1
 majorRevisions:
-  - date: Jun 1 2018
+  - date: Sept. 23 2020
     comment: Initial document
 ---
 

@@ -6,7 +6,7 @@ satisfies:
     - CC7.4
     - CC7.5
 majorRevisions:
-  - date: Jun 1 2018
+  - date: Sept. 23 2020
     comment: Initial document
 ---
 

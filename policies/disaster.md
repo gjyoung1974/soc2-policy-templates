@@ -5,7 +5,7 @@ satisfies:
     - A1.2
     - A1.3
 majorRevisions:
-  - date: Jun 1 2018
+  - date: Sept. 23 2020
     comment: Initial document
 ---
 #Purpose and Scope 

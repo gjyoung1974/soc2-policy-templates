@@ -10,7 +10,7 @@ satisfies:
     - CC3.2
     - CC3.3
 majorRevisions:
-  - date: Jun 1 2018
+  - date: Sept. 23 2020
     comment: Initial document
 ---
 

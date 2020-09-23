@@ -11,7 +11,7 @@ satisfies:
     - CC5.2
     - CC5.3
 majorRevisions:
-  - date: Jun 1 2018
+  - date: Sept. 23 2020
     comment: Initial document
 ---
 
